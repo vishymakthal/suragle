@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/suragle/static/css/main.a032a6d7.css",
+    "main.js": "/suragle/static/js/main.f472a01a.js",
+    "static/js/787.b3f9d252.chunk.js": "/suragle/static/js/787.b3f9d252.chunk.js",
+    "index.html": "/suragle/index.html",
+    "main.a032a6d7.css.map": "/suragle/static/css/main.a032a6d7.css.map",
+    "main.f472a01a.js.map": "/suragle/static/js/main.f472a01a.js.map",
+    "787.b3f9d252.chunk.js.map": "/suragle/static/js/787.b3f9d252.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a032a6d7.css",
+    "static/js/main.f472a01a.js"
+  ]
+}
