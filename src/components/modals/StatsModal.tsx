@@ -1,9 +1,7 @@
-import Countdown from 'react-countdown'
 import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
 import { GameStats } from '../../lib/localStorage'
 import { shareStatus } from '../../lib/share'
-import { tomorrow } from '../../lib/words'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
@@ -54,7 +52,7 @@ export const StatsModal = ({
       isOpen={isOpen}
       handleClose={handleClose}
     >
-      <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2393.png" />
+      <img alt="shaun" src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2393.png" />
       <StatBar gameStats={gameStats} />
       <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
         {GUESS_DISTRIBUTION_TEXT}

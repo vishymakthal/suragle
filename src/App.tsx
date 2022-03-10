@@ -8,7 +8,6 @@ import {
   WIN_MESSAGES,
   GAME_COPIED_MESSAGE,
   NOT_ENOUGH_LETTERS_MESSAGE,
-  WORD_NOT_FOUND_MESSAGE,
   CORRECT_WORD_MESSAGE,
   HARD_MODE_ALERT_MESSAGE,
 } from './constants/strings'
@@ -20,7 +19,6 @@ import {
   WELCOME_INFO_MODAL_MS,
 } from './constants/settings'
 import {
-  isWordInWordList,
   isWinningWord,
   solution,
   findFirstUnusedReveal,
@@ -249,7 +247,7 @@ function App() {
       />
 
       <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
-        <img src="https://img.discogs.com/8dRy2dC7saBgyDKApyFJnhJ51YI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-9493138-1630074897-6943.jpeg.jpg" height="200px" width="200px"/>
+        <img alt="tesher" src="https://img.discogs.com/8dRy2dC7saBgyDKApyFJnhJ51YI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-9493138-1630074897-6943.jpeg.jpg" height="200px" width="200px"/>
       </div>
       <div className="pt-2 px-1 pb-8 md:max-w-7xl w-full mx-auto sm:px-6 lg:px-8 flex flex-col grow">
         <div className="pb-6 grow">
